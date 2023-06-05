@@ -1,6 +1,6 @@
 $(document).ready(function () {
   const checkedAmenities = {};
-  $('input[type="checkbox"]').change(function() {
+  $('input[type="checkbox"]').change(function () {
     if (this.checked) {
       checkedAmenities[$(this).data('id')] = $(this).data('name');
     } else {
@@ -24,5 +24,3 @@ $(document).ready(function () {
     }
   });
 });
-
-
